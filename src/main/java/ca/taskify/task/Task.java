@@ -7,14 +7,14 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "reviews")
+@Document(collection = "Task")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 public class Task {
     @Id
     private ObjectId Id;
-
-    private String body;
-    private String _class;
+    private String taskName;
+    private String date;
+    private boolean completed;
 }

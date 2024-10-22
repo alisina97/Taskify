@@ -1,0 +1,17 @@
+[
+  {
+    "taskName": "Complete EECS2030 assignment",
+    "date": "2024-09-01",
+    "completed": false
+  },
+  {
+    "taskName": "Buy groceries",
+    "date": "2024-09-01",
+    "completed": false
+  },
+  {
+    "taskName": "Help mom clean the house",
+    "date": "2024-09-01",
+    "completed": false
+  }
+]
