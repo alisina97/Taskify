@@ -7,6 +7,8 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.time.LocalDate;
+
 @Document(collection = "Task")
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,6 +17,6 @@ public class Task {
     @Id
     private ObjectId Id;
     private String taskName;
-    private String date;
+    private LocalDate date;
     private boolean completed;
 }
