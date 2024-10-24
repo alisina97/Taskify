@@ -1,22 +1,20 @@
 package ca.taskify.task;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
-
-@Document(collection = "Task")
-@NoArgsConstructor
 @AllArgsConstructor
-@Data
-public class Task {
+@NoArgsConstructor
+@Document(collection = "storage_spaces")
+public class StorageSpace {
     @Id
-    private ObjectId Id;
-    private String taskName;
-    private LocalDate date;
-    private boolean completed;
+    private String id;
+    private String name;
+    private String description;
+    private double price;
+    private String location;
+    private String imageUrl;
 }

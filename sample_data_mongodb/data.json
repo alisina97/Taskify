@@ -1,17 +1,8 @@
-[
-  {
-    "taskName": "Complete EECS2030 assignment",
-    "date": "2024-09-01",
-    "completed": false
-  },
-  {
-    "taskName": "Buy groceries",
-    "date": "2024-09-01",
-    "completed": false
-  },
-  {
-    "taskName": "Help mom clean the house",
-    "date": "2024-09-01",
-    "completed": false
-  }
-]
+{
+  "_id": "1",
+  "name": "Large Storage Unit",
+  "description": "A spacious unit for storing household items.",
+  "price": 50.0,
+  "location": "Downtown",
+  "imageUrl": "https://example.com/images/storage1.jpg"
+}
