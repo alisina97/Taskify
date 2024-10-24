@@ -6,9 +6,9 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "spaces")
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "storage_spaces")
 public class StorageSpace {
     @Id
     private String id;
